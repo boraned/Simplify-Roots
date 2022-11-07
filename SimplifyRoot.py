@@ -13,7 +13,6 @@ def NextPrime(num: int):
         temp += 1
     return temp
 
-
 class SquareRoot:
     def __init__(self, number: int):
         self.number = number
@@ -35,17 +34,15 @@ class SquareRoot:
             prime = NextPrime(prime)
         self.number = int(self.number)
 
-
     # def __add__(self, other):
     #     pass
 
     # def __mul__(self, other):
-        
+    
     #     tempSR = SquareRoot(self.number*other.number)
     #     tempSR.outOfRoot = self.outOfRoot*other.outOfRoot
     #     return tempSR
-
-
+    
     def __str__(self):
         
         if self.outOfRoot == 1:
